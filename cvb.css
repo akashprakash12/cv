@@ -1,0 +1,407 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p {
+    margin-bottom: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&family=Lato&family=Noto+Sans&family=Poppins:wght@300&display=swap");
+:root {
+    --text_circle: #6f7f5a;
+    --circle-2: #96574a;
+    --tree-circle: rgb(27, 80, 100);
+}
+body {
+    font-family: "Noto Sans", sans-serif;
+}
+.avathar {
+    width: 200px;
+    height: 200px;
+    border: 2px solid var(--circle-2);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* margin-left: 250px; */
+}
+.avathar .main-avathar {
+    width: 150px;
+    height: 150px;
+    background-image: url(WhatsApp\ Image\ 2021-11-22\ at\ 12.20.52\ AM.jpeg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+}
+.avathar .circle {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-color: var(--text_circle);
+    top: 155px;
+    left: 18px;
+    border-radius: 100%;
+}
+.avathar .outline-strok {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border-bottom: none;
+    border-left: none;
+    border-top: none;
+    border-radius: 100%;
+    transform: rotate(325deg);
+}
+.name h1 {
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 1.2px;
+}
+.name span {
+    color: var(--text_circle);
+}
+.name p {
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    letter-spacing: 5px;
+    font-weight: 100;
+}
+.contact {
+    letter-spacing: 2px;
+}
+.contact svg {
+    width: 30px;
+    height: 20px;
+    color: var(--text_circle);
+}
+.about {
+    width: 80%;
+}
+.about h1 {
+    letter-spacing: 2px;
+    font-family: "Alex Brush", cursive !important;
+}
+.about p {
+    letter-spacing: 2px;
+}
+.hobbies {
+    width: 80%;
+}
+.persentage {
+    width: 100px;
+
+    margin-left: 10px;
+    position: relative;
+}
+.education svg {
+    width: 30px;
+    height: 30px;
+    color: var(--text_circle);
+}
+.persentage .circle1 {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: var(--text_circle);
+    position: absolute;
+    top: 60px;
+    left: 0;
+}
+.persentage .line {
+    display: block;
+    width: 138px;
+    height: 2px;
+    transform: rotate(90deg);
+    border-radius: 10px;
+    background-color: var(--text_circle);
+    position: absolute;
+    top: 135px;
+    left: -60px;
+}
+.persentage .circle2 {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: var(--text_circle);
+    position: absolute;
+    bottom: 50px;
+}
+.persentage .diploma {
+    position: absolute;
+    top: 30px;
+}
+.persentage .sslc {
+    position: absolute;
+    bottom: 20px;
+}
+.professional svg {
+    width: 30px;
+    height: 30px;
+
+    color: var(--text_circle);
+}
+.project svg {
+    width: 30px;
+    height: 30px;
+    color: var(--text_circle);
+}
+.extra svg {
+    width: 30px;
+    height: 30px;
+    color: var(--text_circle);
+}
+.socialmedia a {
+    text-decoration: none;
+    color: unset;
+}
+.socialmedia svg {
+    width: 40px;
+    height: 40px;
+    color: var(--text_circle);
+}
+.tree {
+    width: 2px;
+    left: 45%;
+    top: 20%;
+    height: 70%;
+    margin-top: 20px;
+    background-color: black;
+}
+.tree .branches .arrow1 {
+    width: 2px;
+    height: 36px;
+    left: -11px;
+    top: -30px;
+    transform: rotate(-39deg);
+    background-color: black;
+}
+.tree .branches .circle {
+    width: 20px;
+    height: 20px;
+    background-color: var(--tree-circle);
+    border-radius: 100%;
+    position: absolute;
+    top: -40px;
+    left: -40px;
+}
+.tree .branches .arrow2 {
+    width: 2px;
+    height: 36px;
+    left: 11px;
+    top: -30px;
+    transform: rotate(40deg);
+    background-color: black;
+}
+.tree .branches .circle2 {
+    width: 20px;
+    height: 20px;
+    background-color: var(--tree-circle);
+    border-radius: 100%;
+    position: absolute;
+    top: -40px;
+    left: 22px;
+}
+.tree .branches .arrow3 {
+    width: 2px;
+    height: 36px;
+    left: 11px;
+    top: 200px;
+    transform: rotate(40deg);
+    background-color: black;
+}
+.tree .branches .circle3 {
+    width: 20px;
+    height: 20px;
+    background-color: var(--tree-circle);
+    border-radius: 100%;
+    position: absolute;
+    top: 190px;
+    left: 22px;
+}
+.tree .branches .arrow4 {
+    width: 2px;
+    height: 36px;
+    left: -11px;
+    top: 215px;
+    transform: rotate(-39deg);
+    background-color: black;
+}
+.tree .branches .circle4 {
+    width: 20px;
+    height: 20px;
+    background-color: var(--tree-circle);
+    border-radius: 100%;
+    position: absolute;
+    top: 203px;
+    left: -40px;
+}
+.tree .branches .arrow5 {
+    width: 2px;
+    height: 36px;
+    left: -11px;
+    top: 460px;
+    transform: rotate(-39deg);
+    background-color: black;
+}
+.tree .branches .circle5 {
+    width: 20px;
+    height: 20px;
+    background-color: var(--tree-circle);
+    border-radius: 100%;
+    position: absolute;
+    top: 450px;
+    left: -40px;
+}
+.tree .branches .arrow6 {
+    width: 2px;
+    height: 36px;
+    left: 11px;
+    top: 500px;
+    transform: rotate(40deg);
+    background-color: black;
+}
+.tree .branches .circle6 {
+    width: 20px;
+    height: 20px;
+    background-color: var(--tree-circle);
+    border-radius: 100%;
+    position: absolute;
+    top: 490px;
+    left: 22px;
+}
+.tree .branches .arrow7 {
+    width: 2px;
+    height: 36px;
+    left: 11px;
+    top: 750px;
+    transform: rotate(40deg);
+    background-color: black;
+}
+.tree .branches .circle7 {
+    width: 20px;
+    height: 20px;
+    background-color: var(--tree-circle);
+    border-radius: 100%;
+    position: absolute;
+    top: 740px;
+    left: 22px;
+}
+.tree .branches .arrow8 {
+    width: 2px;
+    height: 36px;
+    left: 11px;
+    top: 917px;
+    transform: rotate(135deg);
+    background-color: black;
+}
+.tree .branches .circle8 {
+    width: 20px;
+    height: 20px;
+    background-color: var(--tree-circle);
+    border-radius: 100%;
+    position: absolute;
+    top: 940px;
+    left: 22px;
+}
+
+@media screen and (max-width: 760px) {
+    .tree {
+        width: 2px;
+        left: 95%;
+        top: 20%;
+        height: 80%;
+        margin-top: 20px;
+        background-color: black;
+        margin-left: 10px;
+    }
+
+    .tree .branches .arrow7 {
+        width: 2px;
+        height: 36px;
+        left: -11px;
+        top: 745px;
+        transform: rotate(144deg);
+        background-color: black;
+    }
+    .tree .branches .circle7 {
+        width: 20px;
+        height: 20px;
+        background-color: var(--tree-circle);
+        border-radius: 100%;
+        position: absolute;
+        top: 735px;
+        left: -35px;
+    }
+    .tree .branches .arrow8 {
+        width: 2px;
+        height: 36px;
+        left: -11px;
+        top: 1023px;
+        transform: rotate(318deg);
+        background-color: black;
+    }
+    .tree .branches .circle8 {
+        width: 20px;
+        height: 20px;
+        background-color: var(--tree-circle);
+        border-radius: 100%;
+        position: absolute;
+        top: 1014px;
+        left: -35px;
+    }
+    .tree .branches .arrow6 {
+        width: 2px;
+        height: 36px;
+        left: -11px;
+        top: 1223px;
+        transform: rotate(318deg);
+        background-color: black;
+    }
+    .tree .branches .circle6 {
+        width: 20px;
+        height: 20px;
+        background-color: var(--tree-circle);
+        border-radius: 100%;
+        position: absolute;
+        top: 1212px;
+        left: -35px;
+    }
+    .tree .branches .arrow3 {
+        width: 2px;
+        height: 36px;
+        left: -11px;
+        top: 1423px;
+        transform: rotate(318deg);
+        background-color: black;
+    }
+    .tree .branches .circle3 {
+        width: 20px;
+        height: 20px;
+        background-color: var(--tree-circle);
+        border-radius: 100%;
+        position: absolute;
+        top: 1412px;
+        left: -35px;
+    }
+    .tree .branches .arrow2 {
+        width: 2px;
+        height: 36px;
+        left: -11px;
+        top: 1623px;
+        transform: rotate(318deg);
+        background-color: black;
+    }
+    .tree .branches .circle2 {
+        width: 20px;
+        height: 20px;
+        background-color: var(--tree-circle);
+        border-radius: 100%;
+        position: absolute;
+        top: 1612px;
+        left: -35px;
+    }
+}
